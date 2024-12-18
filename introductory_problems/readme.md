@@ -13,3 +13,10 @@ You are given all numbers between `1, 2, ..., n` except one. Your task is to fin
 **Input**: The first input line contains an integer `n`. The second input line contains `n - 1` numbers. Each number is distinct and between 1 and `n` (inclusive). (Example: 5`\n`2 3 1 5)
 
 **Output**: Print the missing number. (Example: 4)
+
+### Repetitions
+You are given a DNA sequence: a string consisting of A, C, G, and T. Your task is to find the longest repetition in the sequence. This is a maximum-length substring containing only one type of character.
+
+**Input**: The only input line contains a string of `n` characters. (Example: ATTCGGGA)
+
+**Output**: Print one integer: the length of the longest repetition. (Example: 3)
