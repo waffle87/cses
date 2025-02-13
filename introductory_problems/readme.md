@@ -55,3 +55,10 @@ Your task is to divide the numbers `1, 2, ..., n` into two sets of equal sum.
 **Input**: The only input line contains an integer `n`. (Example: 7)
 
 **Output**: Print "YES", if the division is possible, and "NO" otherwise. After this, print if the division is possible, print an example of how to create the sets.
+
+### Bit Strings
+Your task is to calculate the number of bit strings of length `n`. For example, if `n = 3`, the correct answer is 8, because the possible bit strings are `000`, `001`, `010`, `011`, `100`, `101`, `110`, and `111`.
+
+**Input**: The only input line has an integer `n`. (Example: 3)
+
+**Output**: Print the result modulo 10E9 + 7. (Example: 8)
