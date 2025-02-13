@@ -62,3 +62,10 @@ Your task is to calculate the number of bit strings of length `n`. For example, 
 **Input**: The only input line has an integer `n`. (Example: 3)
 
 **Output**: Print the result modulo 10E9 + 7. (Example: 8)
+
+### Trailing Zeros
+Your task is to calculate the number of trailing zeros in the factorial `n!`. For example, `20! = 20!=2432902008176640000` and it has 4 trailing zeros.
+
+**Input**: The only input line has an integer `n`. (Example: 20)
+
+**Output**: Print the number of in `n!`. (Example: 4)
