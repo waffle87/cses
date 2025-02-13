@@ -34,3 +34,10 @@ A permutation of integers `1, 2, ..., n` is called beautiful if there are no adj
 **Input**: The only input line contains an integer `n`. (Example: 5)
 
 **Output**: Print a beautiful permutation of integers. If there are several solutions, you may print any of them. If there are no solutions, print "NO SOLUTION". (Example: 4 2 5 3 1)
+
+### Number Spiral
+A number spiral is an infinite grid whose upper-left square has number 1. Your task is to find out the number in row `y` and column `x`.
+
+**Input**: The first imput line contains an integer `t`: the number of tests. After this, there are `t` lines, each containing integers `y` and `x`. (Example: 3`\n`2 3`\n`1 1`\n`4 2)
+
+**Output**: For each test, print the number in row `y` and column `x`. (Example: 8 1 15)
