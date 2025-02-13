@@ -41,3 +41,10 @@ A number spiral is an infinite grid whose upper-left square has number 1. Your t
 **Input**: The first imput line contains an integer `t`: the number of tests. After this, there are `t` lines, each containing integers `y` and `x`. (Example: 3`\n`2 3`\n`1 1`\n`4 2)
 
 **Output**: For each test, print the number in row `y` and column `x`. (Example: 8 1 15)
+
+### Two Knights
+Your task is to count for `k = 1, 2, ..., n` the number of ways two knights can be placed on a `k * k` chessboard so that they do not attack eachother.
+
+**Input**: The only input line contains an integer `n`. (Example: 8)
+
+**Output**: Print `n` integers: the results. (Example: 0 6 28 96 252 550 1056 1848)
