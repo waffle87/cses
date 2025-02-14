@@ -76,3 +76,10 @@ You have two coin piles containing `a` and `b` coins. On each move, you can eith
 **Input**: The first input line has an integer `t`: the number of tests. After this, there are `t` lines, each of which has two integers `a` and `b`: the numbers of coins in the piles. (Example: 3`\n`2 1`\n`2 2`\n`3 3)
 
 **Output**: For each test, print "YES" if you can empty the piles and "NO" otherwise. (Example: YES NO YES)
+
+### Palindrome Reorder
+Given a string, your task is to reorder its letters in such a way that it becomes a palindrome (ie. it reads the same forwards and backwards).
+
+**Input**: The only input line has a string of length `n` consisting of characters A-Z. (Example: AAAACACBA)
+
+**Output**: Print a palindrome consisting of the characters of the original string. You may print any valid solution. If there are no solutions, print "NO SOLUTIONS". (Example: AACABACAA)
