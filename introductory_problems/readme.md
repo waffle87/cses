@@ -83,3 +83,10 @@ Given a string, your task is to reorder its letters in such a way that it become
 **Input**: The only input line has a string of length `n` consisting of characters A-Z. (Example: AAAACACBA)
 
 **Output**: Print a palindrome consisting of the characters of the original string. You may print any valid solution. If there are no solutions, print "NO SOLUTIONS". (Example: AACABACAA)
+
+### Gray Code
+A gray code is a list of `2^n` bit strings of length `n`, where any two successive strings differ in exactly one bit (ie. their hamming distance is one). Your task is to create a gray code for a given length `n`.
+
+**Input**: The only input line has an integer `n`. (Example: 2)
+
+**Output**: Print `2^n` lines that describes the gray code. You can print any valid solution. (Example: 00 01 11 10)
