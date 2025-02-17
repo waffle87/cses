@@ -104,3 +104,11 @@ There are 88418 paths in a 7 * 7 grid from the upper-left square to the lower-le
 **Input**: The only input line has a 48-character string of characters ?, D, U, L, and R. (Example: ??????R??????U??????????????????????????LD????D?)
 
 **Output**: Print one integer: the total number of paths. (Example: 201)
+
+### Tower of Hanoi
+The Tower of Hanoi game consists of three stacks (left, middle, and right) and `n` round disks of different sizes. Initially, the left stack has all the disks, in increasing order of size from top to bottom.
+The goal is to move all the disks to the right stack using the middle stack. On each move you can move the uppermost disk from a stack to another stack. In addition, it is not allowed to place a larger disk on a smaller disk. Your task is to find a solution that minimises the number of moves.
+
+**Input**: The only input line has an integer `n`: the number of disks. (Example: 2)
+
+**Output**: First print an integer `k`: the minimum number of moves. After this, print `k` lines that describe the moves. Each line has two integers `a` and `b`: you move a distk from stack `a` to stack `b`. (Example: 3 12 13 23)
