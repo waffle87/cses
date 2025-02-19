@@ -112,3 +112,10 @@ The goal is to move all the disks to the right stack using the middle stack. On 
 **Input**: The only input line has an integer `n`: the number of disks. (Example: 2)
 
 **Output**: First print an integer `k`: the minimum number of moves. After this, print `k` lines that describe the moves. Each line has two integers `a` and `b`: you move a distk from stack `a` to stack `b`. (Example: 3 12 13 23)
+
+### Apple Division
+There are `n` apples with known weights. Your task is to divide the apples into two groups so that the difference between the weights of the groups is minimal.
+
+**Input**: The first input line has an integer `n`: the number of apples. The next input line has `n` integers `p1, p2, ..., pn`: the weight of each apple. (Example: 5`\n`3 2 7 4 1)
+
+**Output**: Print one integer: the minimum difference between the weights of the groups. (Example: 1)
