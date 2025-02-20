@@ -90,3 +90,10 @@ A gray code is a list of `2^n` bit strings of length `n`, where any two successi
 **Input**: The only input line has an integer `n`. (Example: 2)
 
 **Output**: Print `2^n` lines that describes the gray code. You can print any valid solution. (Example: 00 01 11 10)
+
+### Digit Queries
+Consider an infinite string that consists of all positive integers in increasing order: 12345678910111213141516171819202122232425... Your task is to process `q` queries of the form: what is the digit at position `k` in the string?
+
+**Input**: The first input line has an integer `q`: the number of queries. After this, there are `q` lines that describe the queries. Each line has an integer `k`: a 1-indexed position in the string. (Example: 3 7 19 12)
+
+**Output**: For each query, print the corresponding digit. (Example: 7 4 1)
