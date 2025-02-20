@@ -97,3 +97,10 @@ Consider an infinite string that consists of all positive integers in increasing
 **Input**: The first input line has an integer `q`: the number of queries. After this, there are `q` lines that describe the queries. Each line has an integer `k`: a 1-indexed position in the string. (Example: 3 7 19 12)
 
 **Output**: For each query, print the corresponding digit. (Example: 7 4 1)
+
+### Grid Paths
+There are 88418 paths in a 7 * 7 grid from the upper-left square to the lower-left square. Each path corresponds to a 48-character description consisting of characters D (down), U (up), L (left), and R (right). You are given a description of a path which may also contain certain characters ? (any direction). Your task is to calculate the number of paths that match the description.
+
+**Input**: The only input line has a 48-character string of characters ?, D, U, L, and R. (Example: ??????R??????U??????????????????????????LD????D?)
+
+**Output**: Print one integer: the total number of paths. (Example: 201)
