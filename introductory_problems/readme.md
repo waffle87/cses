@@ -119,3 +119,10 @@ There are `n` apples with known weights. Your task is to divide the apples into 
 **Input**: The first input line has an integer `n`: the number of apples. The next input line has `n` integers `p1, p2, ..., pn`: the weight of each apple. (Example: 5`\n`3 2 7 4 1)
 
 **Output**: Print one integer: the minimum difference between the weights of the groups. (Example: 1)
+
+### Chessboard and Queens
+Your task is to place eight queens on a chessboard so that no two queens are attacking each other. As an additional challenge, each square is either free or reserved, and you can only place queens on the free squares. However, the reserved squares do not prevent queens from attacking eachother. How many possible ays are there to place the queens?
+
+**Input**: The input has eight lines, and each of them has eight characters. Each square is either free (.) or reserved (*).
+
+**Output**: Print one integer: the number of ways you can place the queens.
